@@ -1,0 +1,124 @@
+
+
+body {
+    color:rgb(0, 0, 0); /*cart title */
+    background-color:rgb(255, 255, 255);
+    background-image:url(images/image_de_fond.png);
+    }
+    @keyframes animate {
+    0%{
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+    }
+    100%{
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+    }
+    }
+    .background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #333bc7;
+    overflow: hidden;
+    }
+    .background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+    }
+    .background li:nth-child(0) {
+    left: 69%;
+    width: 475px;
+    height: 475px;
+    bottom: -475px;
+    animation-delay: 1s;
+    }
+    .background li:nth-child(1) {
+    left: 72%;
+    width: 325px;
+    height: 325px;
+    bottom: -325px;
+    animation-delay: 3s;
+    }
+    .background li:nth-child(2) {
+    left: 69%;
+    width: 351px;
+    height: 351px;
+    bottom: -351px;
+    animation-delay: 6s;
+    }
+    .background li:nth-child(3) {
+    left: 65%;
+    width: 161px;
+    height: 161px;
+    bottom: -161px;
+    animation-delay: 3s;
+    }
+    .background li:nth-child(4) {
+    left: 2%;
+    width: 415px;
+    height: 415px;
+    bottom: -415px;
+    animation-delay: 2s;
+    }
+    .background li:nth-child(5) {
+    left: 57%;
+    width: 453px;
+    height: 453px;
+    bottom: -453px;
+    animation-delay: 5s;
+    }
+    .background li:nth-child(6) {
+    left: 14%;
+    width: 294px;
+    height: 294px;
+    bottom: -294px;
+    animation-delay: 15s;
+    }
+    .background li:nth-child(7) {
+    left: 89%;
+    width: 222px;
+    height: 222px;
+    bottom: -222px;
+    animation-delay: 1s;
+    }
+    .background li:nth-child(8) {
+    left: 23%;
+    width: 451px;
+    height: 451px;
+    bottom: -451px;
+    animation-delay: 20s;
+    }
+    .background li:nth-child(9) {
+    left: 77%;
+    width: 386px;
+    height: 386px;
+    bottom: -386px;
+    animation-delay: 17s;
+    }
+
+
+
+
+    .horison{
+    display:flex;
+    justify-content:  space-around;
+    padding : 100px;
+    }
+    .vertical{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
